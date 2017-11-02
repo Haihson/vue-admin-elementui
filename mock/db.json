@@ -1,0 +1,72 @@
+{
+  "userInfo": {
+    "username": "admin",
+    "password": "admin",
+    "avatar": "http://o73el5cs1.bkt.clouddn.com/icon-avatar.jpg",
+    "name": "Haihson"
+  },
+  "menus": [
+    {
+      "path": "/",
+      "component": "Home",
+      "name": "用户管理",
+      "iconCls": "el-icon-message",
+      "leaf": false,
+      "children": [
+        {
+          "path": "/user/add",
+          "component": "Main",
+          "name": "新增用户",
+          "leaf": true,
+          "children": []
+        },
+        {
+          "path": "/user/edit",
+          "component": "Main",
+          "name": "编辑用户",
+          "leaf": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "component": "Home",
+      "name": "存款管理",
+      "iconCls": "el-icon-setting",
+      "leaf": false,
+      "children": [
+        {
+          "path": "deposit/online",
+          "component": "Main",
+          "leaf": true,
+          "name": "在线存款",
+          "children": []
+        },
+        {
+          "path": "deposit/offline",
+          "component": "Main",
+          "leaf": true,
+          "name": "离线存款",
+          "children": []
+        }
+      ]
+    },
+    {
+      "path": "/",
+      "component": "Home",
+      "name": "",
+      "iconCls": "el-icon-menu",
+      "leaf": true,
+      "children": [
+        {
+          "path": "systemSet",
+          "component": "Main",
+          "leaf": true,
+          "name": "系统设置",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
-# jinxiu-admin
+# vue-admin-elementui
 
-> A Vue.js Admin project.
+> Vue ElementUI Admin Panel Framework，Add Router Dynamically Based On Permissions
 
 ## Build Setup
 

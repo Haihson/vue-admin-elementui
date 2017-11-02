@@ -2,6 +2,8 @@
 
 > Vue ElementUI Admin Panel Framework，Add Router Dynamically Based On Permissions
 
+> [https://haihson.github.io/vue-admin-elementui/](https://haihson.github.io/vue-admin-elementui/)
+
 ## Build Setup
 
 ``` bash

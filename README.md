@@ -2,7 +2,11 @@
 
 > Vue + ElementUI 后台管理模版，根据权限动态配置路由。
 
+### 访问地址
 > [https://haihson.github.io/vue-admin-elementui/](https://haihson.github.io/vue-admin-elementui/)
+
+![login](http://o73el5cs1.bkt.clouddn.com/vue-admin-login.png)
+![main](http://o73el5cs1.bkt.clouddn.com/vue-admin-main.png)
 
 ## Build Setup
 
